@@ -1,0 +1,77 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/muffin.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  opacity: 0.85;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (min-width: 300px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+.container.site-section {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+#welcome {
+  max-width: 700px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.col-4.item {
+}
+
+.col-4 .icon {
+  font-size: 30px;
+  color: rgb(232,36,96);
+}
+
+.dark-site {
+  background: rgb(222,245,243);
+}
+
+.logo {
+  max-height: 40px;
+  margin-right: 10px;
+  margin-top: -8px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0,0,0,.9);
+  background-color: rgb(253,253,143);
+  border: transparent;
+}
+
+.col-4 p {
+  color: rgb(109,106,106);
+}
+
+.col-4 {
+  padding: 10px;
+}
+
